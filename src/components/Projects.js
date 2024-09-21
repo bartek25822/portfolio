@@ -2,7 +2,6 @@ import { Container, Row, Col, Tab, Nav, Button } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
 
@@ -10,10 +9,10 @@ export const Projects = () => {
 
   const webs = [
     {
-      title: "Strategy Game",
-      description: "Local two player strategy game",
-      imgUrl: projImg1,
-      href: "https://set1i.itch.io/strategy-game",
+      title: "CaseTurtle",
+      description: "Custom Etui Shop",
+      imgUrl: projImg2,
+      href: "https://caseturtle.vercel.app",
     },
   ];
 

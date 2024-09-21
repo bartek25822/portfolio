@@ -366,7 +366,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.5em;
   margin: 14px auto 30px auto;
   text-align: center;
-  width: 56%;
+  width: 98%;
 }
 .project .nav.nav-pills {
   width: 72%;
@@ -426,6 +426,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  
 }
 .proj-imgbx::before {
   content: "";
@@ -478,7 +479,55 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
-  height: 700px;
+  height: 650px;
+}
+
+@media (max-width: 767px){
+.contact {
+  height: 1000px;
+}
+}
+
+@media (max-width: 575px){
+.contact {
+  height: 1165px;
+}
+}
+
+@media (max-width: 375px){
+.contact {
+  height: 1020px;
+}
+}
+
+@media (max-width: 414px){
+.contact {
+  height: 1050px;
+}
+}
+
+@media (max-width: 430px){
+.contact {
+  height: 1060px;
+}
+}
+
+@media (max-width: 390px){
+.contact {
+  height: 1020px;
+}
+}
+
+@media (max-width: 461px){
+.contact {
+  height: 1090px;
+}
+}
+
+@media (max-width: 391px){
+.contact {
+  height: 1045px;
+}
 }
 
 .contact img {
@@ -578,12 +627,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /*zmienić media*/
-.header-img {
-  width: 600px;
-  height: 600px;
-}
-
-/*zmienić media*/
 .navbar-logo {
   width: 85px;
 }
@@ -599,3 +642,4 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .demo-card:hover {
   color: rgb(0, 146, 165);
 }
+
